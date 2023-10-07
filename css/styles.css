@@ -1,0 +1,115 @@
+
+
+/* formulario */
+.boxText {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-text h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    margin-bottom: 10px;
+}
+
+.btnSend {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSend:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.col-6.themed-grid-col {
+    width: 72%;
+}
+
+.col-6.themed-grid-col.text {
+    width: 72%; 
+    background-color: rgba(53,58,64,255); 
+    color: white; 
+    border-left: 0.5px solid gray;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: rgb(28, 61, 78);
+    color: #fff;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; 
+}
+
+/* Media Queries para Estilos responsive */
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+        overflow-x: hidden;
+    }
+    
+    nav ul {
+        white-space: normal;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+}
